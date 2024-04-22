@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "title": "bread",
+      "image": "https://c8.alamy.com/comp/J388PY/creative-food-concept-funny-sandwich-for-kids-man-made-of-bread-toast-J388PY.jpg",
+      "price": 30,
+      "id": 1
+    }
+  ]
+}
