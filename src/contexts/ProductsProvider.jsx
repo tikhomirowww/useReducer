@@ -30,7 +30,24 @@ const ProductsProvider = ({ children }) => {
     dispatch(action);
   }
 
-  const value = { getProducts, products: state.products };
+  // ! delete
+  async function deleteProduct(id) {
+      await axios.delete(`${API}/${id}`);
+      getProducts();
+  }
+
+  // ! delete with confirm 
+  // async function deleteProduct(id) {
+  //   const con = confirm("Are you sure?");
+  //   if (con) {
+  //     await axios.delete(`${API}/${id}`);
+  //     getProducts();
+  //   } else {
+  //     alert("Delete is canceled");
+  //   }
+  // }
+
+  const value = { deleteProduct, getProducts, products: state.products };
   return (
     <productsContext.Provider value={value}>
       {children}

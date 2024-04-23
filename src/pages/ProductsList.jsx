@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { productsContext } from "../contexts/ProductsProvider";
 
 const ProductsList = () => {
-  const { products, getProducts } = useContext(productsContext);
+  const {deleteProduct, products, getProducts } = useContext(productsContext);
   useEffect(() => {
     getProducts();
   }, []);
@@ -13,6 +13,8 @@ const ProductsList = () => {
           <img width={400} src={item.image} alt="" />
           <h2>{item.title}</h2>
           <h3>{item.price}$</h3>
+          <button onClick={() => deleteProduct(item.id)}>delete</button>
+          <button>edit</button>
         </div>
       ))}
     </div>
