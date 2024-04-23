@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { productsContext } from "../contexts/ProductsProvider";
 
 const ProductsList = () => {
-  const { getProducts, products } = useContext(productsContext);
+  const { getProducts, products, deleteProduct } = useContext(productsContext);
 
   useEffect(() => {
     getProducts();
@@ -21,7 +21,12 @@ const ProductsList = () => {
 
             <div className="btns-prod">
               <button className="editBtn">Edit</button>
-              <button className="deleteBtn">Delete</button>
+              <button
+                onClick={() => deleteProduct(product.id)}
+                className="deleteBtn"
+              >
+                Delete
+              </button>
             </div>
           </div>
         ))}

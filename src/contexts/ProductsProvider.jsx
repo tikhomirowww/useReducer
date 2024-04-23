@@ -30,7 +30,12 @@ const ProductsProvider = ({ children }) => {
     dispatch(action);
   }
 
-  const value = { getProducts, products: state.products };
+  async function deleteProduct(id) {
+    await axios.delete(`${API}/${id}`);
+    getProducts();
+  }
+
+  const value = { getProducts, products: state.products, deleteProduct };
   return (
     <productsContext.Provider value={value}>
       {children}
