@@ -3,8 +3,7 @@ import { AddContext } from "../contexts/AddProvider";
 
 const AddProduct = () => {
   const {
-    showModal,
-    setShowModal,
+
     productData,
     handleInputChange,
     handleAddProduct,
