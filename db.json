@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "Nike Air Jordan 4",
+      "price": "250",
+      "description": "Explore our diverse range of high-quality products, carefully curated to meet your every need. From timeless classics to innovative designs, our collection offers something for everyone. Discover the perfect blend of style, functionality, and value with our extensive selection of products",
+      "image": "https://cdn.shopify.com/s/files/1/0602/6362/9037/files/Click_To_Buy_Air_Jordan_4_Shoes_Online_480x480.jpg",
+      "id": 1
+    },
+    {
+      "name": "Nike Air Jordan 4",
+      "price": "250",
+      "description": "Explore our diverse range of high-quality products, carefully curated to meet your every need. From timeless classics to innovative designs, our collection offers something for everyone. Discover the perfect blend of style, functionality, and value with our extensive selection of products",
+      "image": "https://cdn.shopify.com/s/files/1/0602/6362/9037/files/Click_To_Buy_Air_Jordan_4_Shoes_Online_480x480.jpg",
+      "id": 1
+    },
+    {
+      "name": "Nike Air Jordan 4",
+      "price": "250",
+      "description": "Explore our diverse range of high-quality products, carefully curated to meet your every need. From timeless classics to innovative designs, our collection offers something for everyone. Discover the perfect blend of style, functionality, and value with our extensive selection of products",
+      "image": "https://cdn.shopify.com/s/files/1/0602/6362/9037/files/Click_To_Buy_Air_Jordan_4_Shoes_Online_480x480.jpg",
+      "id": 1
+    },
+    {
+      "name": "Nike Air Jordan 4",
+      "price": "250",
+      "description": "Explore our diverse range of high-quality products, carefully curated to meet your every need. From timeless classics to innovative designs, our collection offers something for everyone. Discover the perfect blend of style, functionality, and value with our extensive selection of products",
+      "image": "https://cdn.shopify.com/s/files/1/0602/6362/9037/files/Click_To_Buy_Air_Jordan_4_Shoes_Online_480x480.jpg",
+      "id": 1
+    }
+  ]
+}
